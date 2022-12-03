@@ -3,12 +3,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'daily-dev-tips': "#F89283"
-      }
+        primary: "#121549",
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
