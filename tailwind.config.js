@@ -10,6 +10,10 @@ module.exports = {
         xsm: "0.9rem",
         xxsm: "0.75rem",
       },
+      width: {
+        moonSmall: "600px",
+        moon: "750px",
+      },
     },
   },
   variants: {
