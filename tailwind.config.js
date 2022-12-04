@@ -6,6 +6,9 @@ module.exports = {
         primary: "#121549",
         backgroundColor: "#121549",
       },
+      fontSize: {
+        xsm: "0.8rem",
+      },
     },
   },
   variants: {
