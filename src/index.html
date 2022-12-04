@@ -12,16 +12,22 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
   </head>
-  <body class="text-white xl:text-primary bg-backgroundColor text-center flex">
-    <section class="w-full xl:w-1/2 pt-8 xl:h-screen xl:bg-white">
-      <img
-        src="/images/inddura-logo-navy.svg"
-        class="hidden xl:block w-72 m-auto relative z-10"
-      />
-      <img
-        src="/images/inddura-logo-white.svg"
-        class="block xl:hidden w-72 m-auto relative z-10"
-      />
+  <body
+    class="text-white xl:text-primary bg-backgroundColor text-center xl:text-left flex"
+  >
+    <section
+      class="w-full xl:w-1/2 pt-8 xl:pt-0 xl:h-screen xl:bg-white flex flex-col justify-center"
+    >
+      <div class="xl:w-10/12 xl:mx-auto">
+        <img
+          src="/images/inddura-logo-navy.svg"
+          class="hidden xl:block w-80 mx-auto relative z-10 xl:ml-0"
+        />
+        <img
+          src="/images/inddura-logo-white.svg"
+          class="block xl:hidden w-80 mx-auto relative z-10 xl:ml-0"
+        />
+      </div>
       <video
         autoplay
         muted
@@ -34,18 +40,18 @@
         <source src="/videos/bg-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <section class="w-10/12 m-auto relative">
+      <section class="w-10/12 mx-auto relative">
         <h1
-          class="text-4xl my-10 mx-auto font-bold leading-tight tracking-wide"
+          class="text-4xl my-10 mx-auto font-bold leading-tight tracking-wide xl:ml-0"
           style="max-width: 400px"
         >
           The next-generation of innate durable immunotherapies
         </h1>
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center xl:justify-start">
           Our website is under construction and coming soon.
         </div>
         <div
-          class="bg-transparent border-white border rounded-full h-2.5 dark:bg-gray-700 m-auto w-8/12 mb-12"
+          class="bg-transparent border-white border rounded-full h-2.5 dark:bg-gray-700 mx-auto w-8/12 mb-12"
         >
           <div class="bg-white h-2.5 rounded-full" style="width: 45%"></div>
         </div>
@@ -66,7 +72,7 @@
               class="w-6 mr-1 hidden xl:block"
             />info@indurra.com
           </div>
-          <div class="flex">
+          <div class="flex xl:mr-10">
             <img
               src="/images/linkedin-white.svg"
               alt="Linkedin "
