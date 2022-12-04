@@ -5,3 +5,7 @@
 * {
   font-family: "Poppins";
 }
+
+.w-screen-1\/2 {
+  width: 50vw;
+}

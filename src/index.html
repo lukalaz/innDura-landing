@@ -12,15 +12,15 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
   </head>
-  <body class="text-white bg-backgroundColor text-center flex">
+  <body class="text-white xl:text-primary bg-backgroundColor text-center flex">
     <section class="w-full xl:w-1/2 pt-8 xl:h-screen xl:bg-white">
       <img
-        src="/images/inddura-logo-white.svg"
-        class="hidden md:block w-72 m-auto relative z-10"
+        src="/images/inddura-logo-navy.svg"
+        class="hidden xl:block w-72 m-auto relative z-10"
       />
       <img
         src="/images/inddura-logo-white.svg"
-        class="block md:hidden w-72 m-auto relative z-10"
+        class="block xl:hidden w-72 m-auto relative z-10"
       />
       <video
         autoplay
@@ -58,19 +58,42 @@
             <img
               src="/images/email-white.svg"
               alt="Email "
-              class="w-6 mr-1 fill-white"
+              class="w-6 mr-1 block xl:hidden"
+            />
+            <img
+              src="/images/email-navy.svg"
+              alt="Email "
+              class="w-6 mr-1 hidden xl:block"
             />info@indurra.com
           </div>
           <div class="flex">
             <img
               src="/images/linkedin-white.svg"
               alt="Linkedin "
-              class="w-6 mr-1 fill-white"
+              class="w-6 mr-1 block xl:hidden"
+            />
+            <img
+              src="/images/linkedin-navy.svg"
+              alt="Linkedin "
+              class="w-6 mr-1 hidden xl:block"
             />innduratherapeutics
           </div>
         </div>
       </section>
     </section>
-    <section class="hidden xl:block">trada</section>
+    <section class="hidden xl:block relative w-screen-1/2">
+      <video
+        autoplay
+        muted
+        loop
+        width="600"
+        height="600"
+        class="absolute z-0"
+        style="top: 50%; left: 50%; transform: translate(-50%, -50%)"
+      >
+        <source src="/videos/bg-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
   </body>
 </html>
